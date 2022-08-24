@@ -85,3 +85,43 @@ n = int(input("Enter number"))
 n2 = (n*2)-1
 for i in range(n2, 0, -2):
     print(i)'''
+
+'''# q8
+a = 1
+a2 = a+3
+for u in range(1, 41, 3):
+    print(u)
+b = 1
+for u in range (1, 41, 3):
+    if u%2 == 0:
+        print(-u)
+    else:
+        print(u)'''
+
+'''# q9
+a = int(input("Enter number 1: "))
+b = int(input("Enter number 2:"))
+c = int(input("Enter number 3:"))
+d = int(input("Enter number 4:"))
+e = int(input("Enter number 5:"))
+
+avg = (a+b+c+d+e)/5
+print(avg)'''
+
+'''# q10
+a = int(input("Enter number 1: "))
+b = int(input("Enter number 2:"))
+c = int(input("Enter number 3:"))
+d = int(input("Enter number 4:"))
+e = int(input("Enter number 5:"))
+
+if a > b and a > c and a > d and a > e:
+    print("Number 1 is the greatest")
+elif b > a and b > c and b > d and b > e:
+    print("Number 2 is the greatest")
+elif c > a and c > b and c > d and c > e:
+    print("Number 3 is the greatest")
+elif d > a and d > b and d > c and d > e:
+    print("Number 4 is the greatest")
+else:
+    print("Number 5 is the greatest")'''
